@@ -1,0 +1,179 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Abel|Lexend+Deca|Rambla|Staatliches&display=swap');
+
+/* ****** Global Varibales ****** */
+:root {
+    /* Font Families */
+    --font-lexend: 'Lexend Deca', sans-serif;
+    --font-abel: 'Abel', sans-serif;
+    --font-rambla: 'Rambla', sans-serif;
+    --font-staat: 'Staatliches', cursive;
+    /* # Font Families */
+
+
+}
+/* ****** # Global Varibales ****** */
+
+/* Global Class */
+
+body {
+    background: #5cdb95;
+}
+
+h1 {
+    color: #edf5e1;
+    font-family: var(--font-lexend);
+}
+
+a {
+    color: #05386b !important;
+    text-decoration: underline;
+    font-family: var(--font-staat);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+/* # Global Class */
+
+/* *** Navbar *** */
+
+nav {
+    background: #5cdb95;
+}
+
+a.navbar-brand {
+    font-size: 2rem;
+    font-family: var(--font-rambla);
+    font-weight: 800;
+    text-decoration: none !important;
+}
+
+/* *** # Navbar *** */
+
+/* ****** Form ****** */
+
+.create-form {
+    font-size: 1.3rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    font-family: var(--font-rambla);
+}
+
+.create-form input {    
+    font-family: var(--font-rambla);
+    background: transparent;
+    border: 1px solid #05386b;
+    color: #05386b !important;
+    font-size: 1.3rem;
+}
+
+.create-form textarea {    
+    font-family: var(--font-rambla);
+    background: transparent;
+    border: 1px solid #05386b;
+    color: #05386b !important;
+    font-size: 1.3rem;
+}
+
+.create-form input::placeholder,
+.create-form textarea::placeholder {
+    color: #05386b;
+}
+
+.create-form input:focus,
+.create-form textarea:focus,
+.create-form input:active,
+.create-form textarea:active {
+    background: transparent;
+    border: 1px solid #05386b;
+}
+
+#submit-btn {
+    background: linear-gradient(120deg, var(--purple), var(--blue));
+    color: white !important;
+    font-size: 1.3rem;
+    font-family: var(--font-rambla);
+    display: block;
+    width: 100%;
+    border-radius: .3rem;
+}
+
+/* ****** # Form ****** */
+
+/* ****** Footer ****** */
+
+footer.footer .copyright {
+    color: #05386b;
+    font-size: 1rem;
+    font-family: var(--font-lexend);
+}
+
+.social-btns .s-btn,
+.social-btns .s-btn:before,
+.social-btns .s-btn .fab {
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.social-btns .s-btn:before {
+    top: 90%;
+    left: -110%;
+}
+
+.social-btns .s-btn .fab {
+    transform: scale(0.8);
+}
+
+.social-btns .s-btn.github:before {
+    background-color: #211F1F;
+}
+
+.social-btns .s-btn.github .fab {
+    color: #211F1F;
+}
+
+.social-btns .s-btn:focus:before,
+.social-btns .s-btn:hover:before {
+    top: -10%;
+    left: -10%;
+}
+
+.social-btns .s-btn:focus .fab,
+.social-btns .s-btn:hover .fab {
+    color: #fff;
+    transform: scale(1);
+}
+
+.social-btns .s-btn {
+    display: inline-block;
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+    opacity: 0.99;
+}
+
+.social-btns .s-btn:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.social-btns .s-btn .fab {
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+/* ****** # Footer ****** */

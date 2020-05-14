@@ -103,7 +103,7 @@
 
 ## Results of the Project  
 
-![Result](results-gif-and-video/results.gif)
+![Result](https://github.com/AkashSDas/HamSpam/blob/master/reults-gif-and-video/results.gif)
 
 
 ## Metrics of the ML model used
@@ -114,7 +114,7 @@
 
   
 
-![Metrics Scores](https://github.com/AkashSDas/HamSamp/blob/master/project-results-images/metrics-scores.png)
+![Metrics Scores](https://github.com/AkashSDas/HamSpam/blob/master/project-results-images/metrics-scores.png)
 
   
 

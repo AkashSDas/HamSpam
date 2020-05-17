@@ -147,7 +147,7 @@ weighted avg       0.99      0.99      0.99      1719
 
   
 
-> The source code is available [here](https://github.com/AkashSDas/HamSpam).
+> The source code is available [here](https://github.com/AkashSDas/Ham-or-Spam).
 
   
 
